@@ -3,7 +3,7 @@ $row = 1;
 $separator = ";";
 
 
-if (($handle = fopen("TestCSV.csv", "r")) !== FALSE) {
+if (($handle = fopen("125.csv", "r")) !== FALSE) {
 
     while (($data = fgetcsv($handle, 1000, $separator)) !== FALSE) {
         $num = count($data);
